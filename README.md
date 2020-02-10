@@ -1,5 +1,5 @@
 # spring-cloud-stream-publisher
-###Message publisher API to publish messages on messaging streams. Here I am using spring cloud stream, which has variety of binder implementations avaiable. Means without doing any code changes we can easily switch the underlying messaging layer just by changing the maven dependencies.
+Message publisher API to publish messages on messaging streams. Here I am using spring cloud stream, which has variety of binder implementations avaiable. Means without doing any code changes we can easily switch the underlying messaging layer just by changing the maven dependencies.
 
 ## Setup instructions..
 1. Download Kafka from their official page.
