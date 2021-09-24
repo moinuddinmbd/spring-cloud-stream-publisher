@@ -3,6 +3,13 @@ spring:
     stream:
       bindings:
         output:
-          destination: spring-cloud-stream
+          destination: test_topic
+        partitionKey:
+          producer:
+            partition-key-expression: headers['messageKey']
+      kafka:
+        binder:
+          brokers: localhost:9092
+
 server:
   port: 8181
